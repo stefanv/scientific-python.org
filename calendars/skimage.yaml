@@ -1,4 +1,5 @@
 name: scikit-image Community Calendar
+timezone: Etc/UTC
 events:
   - summary: scikit-image Community Call (Europe/Africa)
     description: |
@@ -6,13 +7,15 @@ events:
 
       Meeting notes: https://hackmd.io/@scientific-python/HJWUBDVNi
       Archive: https://github.com/scikit-image/meeting-notes
-    begin: 2022-09-13 18:00:00 +00:00
+    begin: 2022-09-13 18:00:00
     duration: { minutes: 60 }
     url: https://meet.evolix.org/skimage-meeting
     repeat:
       interval:
         days: 14
-      until: 2025-01-01 00:00:00 +00:00
+      until: 2026-01-01 00:00:00
+      except_on:
+        - 2024-01-31 18:00:00
   # - summary: scikit-image Community Call (Americas/Oceania)
   #   description: |
   #     The scikit-image Community Call. Timezone-friendly for Americas/Oceania.
